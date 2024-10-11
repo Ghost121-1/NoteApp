@@ -73,7 +73,7 @@ dependencies {
     annotationProcessor(libs.roomCompiler)
     implementation(libs.roomPaging)
     //Hilt
-    implementation(libs.hiltNavigationHilt)     //implementation(libs.composeNavigationHilt)
+    implementation(libs.composeNavigationHilt)     //implementation(libs.composeNavigationHilt)
     implementation(libs.hilt)
     implementation(libs.hiltCompiler)
 }
